@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 	<script src="waste.js"></script>
 </head>
 <body>
@@ -19,7 +20,7 @@
 			<ul>
 				<li><a href="#home" class="active">Home</a></li>
 				<li><a href="#recognize">Recognize</a></li>
-				<li><a href="#">About us</a></li>
+				<li><a href="#about">About</a></li>
 			</ul>
 		</nav>
 		<div class="clearfix"></div>
@@ -43,13 +44,32 @@
     			<div class="preview">
     				<img id="file-ip-1-preview">
     			</div>
+
     			
     		</div>
+
     	</div>
-    	</div>
-    	
+     
+   </div>
+    	 
     </section>
-	
+    
+	     <div class="predict">
+     <button type="submit" id="btn" value="Predict">Predict</button>
+     </div>
+      
+  
+   
+
+    <section id="about">
+      <p>Waste segregation is the separating and sorting of waste to facilitate recycling.
+         And, when sorted, waste is more easily recycled thereby saving you money. For
+           example, a company who sorts its cardboard packaging, glass containers, metal
+           waste and wood waste will save a considerable amount of waste then sending a
+            mixed material skip for recycling.The garnering of strong waste in the metropolitan region is turning into analarming concern, and it would bring about natural contamination and might be risky to human wellbeing if it isn't dealt with appropriately. It is imperative to have a waste administration framework to deal with the assortment of waste materials.To streamline this cycle, we propose an innovative Waste Classifier App/web Appthat is created using Image Processing, Neural Networks & Machine Learning. Theproposed application is tested on the Trash image dataset.</p>
+      
+    </section>
+  
   
    
 
@@ -57,18 +77,16 @@
 
 
 
- <script src="https://code.jquery.com/jquery-3.5.1.js"
+  <script src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
   <script type="text/javascript">
-  	$(document).ready(function(){
-  		$('.menu-toggle').click(function(){
-  			$('.menu-toggle').toggleClass('active')
-  			$('nav').toggleClass('active')
-  		})
-  	})
-  	</script>
+    $(document).ready(function(){
+      $('.menu-toggle').click(function(){
+        $('.menu-toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+      })
+    })
+  </script>
 </body>
 </html>
-
-
